@@ -87,9 +87,9 @@ namespace DualOrNoDual
                 Foreground = new SolidColorBrush(Colors.WhiteSmoke),
                 HorizontalAlignment = HorizontalAlignment.Center,
                 VerticalAlignment = VerticalAlignment.Center,
-                Margin = new Thickness(5),
                 Text = FormatAmount(value),
-                FontSize = 25
+                Margin = new Thickness(5),
+                FontSize = 24
             };
             grid.Children.Add(text);
             return grid;

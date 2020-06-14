@@ -43,7 +43,7 @@
                         </Rectangle.Fill>
                     </Rectangle>
                     <Rectangle Canvas.Left="2" Canvas.Top="1" Fill="{StaticResource Screen}" Height="24" Stroke="#5D5D5D" Width="19" />
-                    <Ellipse Canvas.Left="5.5" Canvas.Top="23.3" Fill="{StaticResource Circle}" Stroke="#5D5D5D" StrokeThickness="1.3" Height="12" Width="12"/>
+                    <Ellipse Canvas.Left="5.5" Canvas.Top="24" Fill="{StaticResource Circle}" Stroke="#5D5D5D" StrokeThickness="1.3" Height="12" Width="12"/>
                 </Canvas>
                 <!-- Draco -->
                 <Canvas Width="21" Height="36">
