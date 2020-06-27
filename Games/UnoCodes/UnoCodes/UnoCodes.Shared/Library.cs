@@ -45,6 +45,8 @@ public class Library
     private const int size = 4;
     private readonly Color light = Color.FromArgb(255, 103, 229, 173);
     private readonly Color dark = Color.FromArgb(255, 122, 103, 248);
+    private readonly Color fore = Color.FromArgb(255, 248, 89, 119);
+    private readonly Color back = Color.FromArgb(255, 21, 155, 255);
 
     private readonly ObservableCollection<Code> _codes = new ObservableCollection<Code>();
     private readonly Random _random = new Random((int)DateTime.Now.Ticks);
@@ -85,8 +87,8 @@ public class Library
         }
         else
         {
-            code.Foreground = new SolidColorBrush(light);
-            code.Background = new SolidColorBrush(dark);
+            code.Foreground = new SolidColorBrush(fore);
+            code.Background = new SolidColorBrush(back);
             return false;
         }
     }
