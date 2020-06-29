@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="DualOrNoDual.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DualOrNoDual"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TwoPaneView Pane1Length="0.5*" Pane2Length="0.5*" TallModeConfiguration="SinglePane" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <TwoPaneView.Pane1>
+                <Viewbox Margin="20">
+                    <Grid x:Name="Boxes" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Viewbox>
+            </TwoPaneView.Pane1>
+            <TwoPaneView.Pane2>
+                <Viewbox Margin="20" StretchDirection="DownOnly">
+                    <Grid x:Name="Values" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Viewbox>
+            </TwoPaneView.Pane2>
+        </TwoPaneView>
+    </Grid>
+</Page>
